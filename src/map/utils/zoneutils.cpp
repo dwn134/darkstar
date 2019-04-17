@@ -918,37 +918,9 @@ REGIONTYPE GetCurrentRegion(uint16 ZoneID)
         case ZONE_CASTLE_ZVAHL_KEEP_S:
         case ZONE_THRONE_ROOM_S:
             return REGION_VALDEAUNIA_FRONT;
-        case ZONE_ABYSSEA_ALTEPA:
-        case ZONE_ABYSSEA_ATTOHWA:
-        case ZONE_ABYSSEA_EMPYREAL_PARADOX:
-        case ZONE_ABYSSEA_GRAUBERG:
-        case ZONE_ABYSSEA_KONSCHTAT:
-        case ZONE_ABYSSEA_LA_THEINE:
-        case ZONE_ABYSSEA_MISAREAUX:
-        case ZONE_ABYSSEA_TAHRONGI:
-        case ZONE_ABYSSEA_ULEGUERAND:
-        case ZONE_ABYSSEA_VUNKERL:
-            return REGION_ABYSSEA;
-        case ZONE_WALK_OF_ECHOES:
-            return REGION_THE_THRESHOLD;
         case ZONE_DIORAMA_ABDHALJS_GHELSBA:
         case ZONE_ABDHALJS_ISLE_PURGONORGO:
-        case ZONE_MAQUETTE_ABDHALJS_LEGION:
             return REGION_ABDHALJS;
-        case ZONE_WESTERN_ADOULIN:
-        case ZONE_EASTERN_ADOULIN:
-        case ZONE_RALA_WATERWAYS:
-        case ZONE_RALA_WATERWAYS_U:
-            return REGION_ADOULIN_ISLANDS;
-        case ZONE_CEIZAK_BATTLEGROUNDS:
-        case ZONE_FORET_DE_HENNETIEL:
-        case ZONE_SIH_GATES:
-        case ZONE_MOH_GATES:
-        case ZONE_CIRDAS_CAVERNS:
-        case ZONE_CIRDAS_CAVERNS_U:
-        case ZONE_YAHSE_HUNTING_GROUNDS:
-        case ZONE_MORIMAR_BASALT_FIELDS:
-            return REGION_EAST_ULBUKA;
     }
     return REGION_UNKNOWN;
 }
